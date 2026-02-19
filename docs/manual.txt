@@ -1,0 +1,3 @@
+Manual rápido:
+1. Ingrese el número de envases.
+2. Pulse 'Calcular'.

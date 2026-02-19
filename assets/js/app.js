@@ -1,3 +1,5 @@
+if (val <= 0) { alert("Dato no válido"); return; }
+
 const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
     const val = document.getElementById('dato').value;

@@ -1,5 +1,38 @@
-:root { --verde: #2e7d32; --fondo: #f0f2f0; }
-body { font-family: Arial; background: var(--fondo); text-align: center; margin: 0; }
-header { background: var(--verde); color: white; padding: 20px; }
+:root {
+    --verde: #2e7d32;
+    --fondo: #f0f2f0;
+}
 
-.card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: inline-block; margin-top: 20px; }
+body {
+    font-family: Arial;
+    background: var(--fondo);
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background: var(--verde);
+    color: white;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+button {
+    background: var(--verde);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b5e20;
+}
